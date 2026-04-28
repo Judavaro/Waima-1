@@ -169,8 +169,8 @@ a.nontext /* used to override default properties of 'a' tag */
 .text
 {
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
-	font-size: 14px;
-	line-height: 24px;
+    font-size: 22px;
+    line-height: 1.2;
 	text-align: center;
 	padding: 0px;
 }

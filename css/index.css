@@ -21,6 +21,7 @@
 	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 
 #page_position_content
@@ -492,6 +493,22 @@
 	background: url("../images/loading.gif") no-repeat center center;
 }
 
+#OnImage
+{
+	z-index: 28;
+    width: 988px;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    top: -101px;
+    margin-bottom: -101px;
+    position: relative;
+    padding: 10px 56px 20.35px;
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+}
+
 #u626
 {
 	z-index: 28;
@@ -499,7 +516,7 @@
 	border-color: #000000;
 	background-color: #FFFFFF;
 	margin-left: 20px;
-	top: -101px;
+	top: 0px;
 	margin-bottom: -101px;
 	position: relative;
 	padding: 10px 56px 88.34999999999968px;
@@ -762,3 +779,55 @@ body
 	clear: both;
 }
 
+.Plan
+{
+    width: 240px;
+    min-height: 48px;
+    background-color: transparent;
+    position: relative;
+    margin-right: -10000px; 
+    background-color: #F8F8FF;
+    float: left;
+}
+
+.PlanHeader
+{
+	width: 240px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #774482;
+    padding: 14px 0 14px 0;
+    border-width: 0px 1px 0px 0px;
+    color: #fff;
+}
+ 
+
+.PlanDetalle{
+	font-size: 19px;
+    padding: 30px;  
+}
+
+.PlanHeaderContentBoton{
+	height: 65px;
+}
+.PlanHeaderBoton
+{
+	width: 200px;
+    color: #fff;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #97cc1e;
+    padding: 10px 0 10px 0;
+    position: relative;
+    border-width: 0px 1px 0px 0px;
+    text-align: center;
+    margin: 18px auto 0px auto;
+}
+
+.iconobandera{
+	border-radius: 50%;
+	width: 20px; 
+    background: #fecc01; 
+    vertical-align: middle;
+    height: 19px;
+}
